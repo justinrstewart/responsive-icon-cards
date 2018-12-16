@@ -10,3 +10,34 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.card {
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.card-img img {
+  margin: 0 auto;
+  display: block;
+  max-width: 50px;
+  padding: .5em 0 .6em;
+}
+
+.card-body {
+  margin: .75em .5em;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+.card-body h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1rem;
+}
