@@ -41,3 +41,29 @@ html {
   font-weight: normal;
   font-size: 1.5rem;
 }
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .cards div {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  .card-img {
+    margin: .75em;
+    display: inline-block;
+    width: 50px;
+    padding: 0;
+  }
+
+  .card-body {
+    margin: 0;
+    width: 75%;
+  }
+
+}
